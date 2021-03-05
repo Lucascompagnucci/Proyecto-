@@ -1,0 +1,25 @@
+/* profesionales */
+.profesionales{
+    
+        margin-top: 100px;
+       
+        .conteiner:hover .profesionales1 {
+          transform: translateX(560px);
+        }
+        .profesionales1{
+          width: 300px;
+          transition: all 1.3s ease-in;
+         }
+
+         .conteiner:hover .boton{
+          transform: translateX(560px);
+         }
+
+  
+      .boton{
+          @extend %boton;
+          transition: all 1.3s ease-in;
+      }
+      
+
+}

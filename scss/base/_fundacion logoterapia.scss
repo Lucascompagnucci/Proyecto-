@@ -1,0 +1,31 @@
+
+
+
+
+
+
+/* Fundacion logoterapeuta */
+.fundacion-logoterapeuta{
+    margin-bottom: 70px;
+    margin-top: 70px;
+    
+    .grid-logoterapia{
+       @extend %grid-logoterapia;
+     }
+    
+     .h1-logoterapia{
+        margin-top: 100px;;
+      }
+    .parrafo-logoterapia{
+        margin-right: 20px;
+        
+      }
+      
+    .video{
+        float: left;
+        margin-right:20px;
+       }
+      
+     
+
+ }

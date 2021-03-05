@@ -1,0 +1,285 @@
+body {
+  font-size: 20px;
+  font-family: "Nanum Gothic", sans-serif;
+  line-height: 1.2rem;
+  height: 100vh;
+  background-image: url("../imagenes/4935872.jpg");
+}
+
+.datos .h2-formulario, body h1 {
+  text-decoration: underline;
+  border: 1px groove #D8DECE;
+  padding: 5px 7px 5px 7px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.fundacion-logoterapeuta .grid-logoterapia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.profesionales .boton {
+  margin-top: 20px;
+  color: #2d726a;
+  width: 100px;
+  border: 2px #354644 solid;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #333;
+  padding: auto auto auto auto;
+}
+
+/* header */
+header .logo-meta {
+  width: 45px;
+}
+header .navbar {
+  margin-bottom: 40px;
+  background-color: #F6F6F4;
+}
+header .nav-link {
+  font-size: 13px;
+}
+
+/* Fundacion logoterapeuta */
+.fundacion-logoterapeuta {
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+.fundacion-logoterapeuta .h1-logoterapia {
+  margin-top: 100px;
+}
+.fundacion-logoterapeuta .parrafo-logoterapia {
+  margin-right: 20px;
+}
+.fundacion-logoterapeuta .video {
+  float: left;
+  margin-right: 20px;
+}
+
+/* profesionales */
+.profesionales {
+  margin-top: 100px;
+}
+.profesionales .conteiner:hover .profesionales1 {
+  transform: translateX(560px);
+}
+.profesionales .profesionales1 {
+  width: 300px;
+  transition: all 1.3s ease-in;
+}
+.profesionales .conteiner:hover .boton {
+  transform: translateX(560px);
+}
+.profesionales .boton {
+  transition: all 1.3s ease-in;
+}
+
+/*victor frankl*/
+.victor-frankl .grid-imagenes {
+  display: Grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+.victor-frankl .box1 {
+  width: 161px;
+  border-radius: 176px;
+}
+.victor-frankl .box2 {
+  width: 204px;
+  border-radius: 139px;
+}
+.victor-frankl .box3 {
+  width: 263px;
+  border-radius: 90px;
+  margin-top: 28px;
+}
+.victor-frankl .victor-f {
+  margin-top: 40px;
+}
+
+/* footer */
+footer .grid-footer {
+  display: flex;
+  justify-content: center;
+}
+footer .logo-footer {
+  width: 200px;
+  display: Flex;
+  justify-content: center;
+  border-radius: 100px;
+}
+footer .texto-footer {
+  margin-left: 200px;
+  color: #f1faee;
+}
+footer .logo-footer1 {
+  display: Flex;
+  justify-content: right;
+}
+footer .icono {
+  margin-left: -60px;
+}
+footer .speak-form {
+  display: Flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+footer input {
+  width: 300px;
+  margin-top: 20px;
+}
+footer .boton-footer {
+  width: 100px;
+  margin-top: 30px;
+}
+footer .describe {
+  width: 500px;
+  margin-top: 20px;
+}
+footer .h3-footer {
+  color: #fff;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+footer .contenido-footer {
+  margin-top: 50px;
+}
+footer .nombre-input {
+  margin-right: 5px;
+}
+footer .form-row {
+  margin-left: -5px;
+}
+
+/*
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 30px;
+
+*/
+@media only screen and (max-width: 400px) {
+  .logo-footer {
+    width: 120px !important;
+  }
+}
+/* formulario */
+#form-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+  margin-top: 200px;
+  margin-right: 300px;
+}
+
+#form-div {
+  background-color: rgba(72, 72, 72, 0.4);
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  width: 450px;
+  margin-top: -140px;
+}
+
+.feedback-input {
+  color: #3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.feedback-input:focus {
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid #3498db;
+  color: #3498db;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused {
+  color: #30aed6;
+  border: #30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+textarea {
+  width: 100%;
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  background-color: white;
+}
+
+#button-blue {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  float: left;
+  width: 100%;
+  border: #fbfbfb solid 4px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  font-size: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+
+#button-blue:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #0493bd;
+}
+
+.submit:hover {
+  color: #3498db;
+}
+
+.ease {
+  width: 0px;
+  height: 74px;
+  background-color: #fbfbfb;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.submit:hover .ease {
+  width: 100%;
+  background-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,93 @@
+
+ /* footer */
+    footer{
+    @extend %footer;
+  
+     .grid-footer{
+       display: flex;
+       justify-content: center;
+     }
+   
+    .logo-footer{
+        width: 200px;
+        display: $flex;
+        justify-content: center;
+        border-radius: 100px;
+        
+        
+       }
+       
+       
+
+    .texto-footer{
+        margin-left: 200px;
+        color: #f1faee;
+        
+      }
+      
+      .logo-footer1{
+        display: $flex;
+        justify-content: right ;
+        
+      }
+      
+      .icono{
+        margin-left: -60px;
+       
+      }
+      
+      .speak-form{
+        display: $flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+      }
+      
+      input{
+        width: 300px;
+        margin-top: 20px ;
+      }
+      
+      .boton-footer{
+        width: 100px;
+        margin-top: 30px;
+      }
+       
+      
+       .describe{
+        width: 500px;
+        margin-top: 20px;
+      }
+      
+      .h3-footer{
+        color: #fff;
+        margin-bottom: 40px;
+        text-decoration: underline;
+         }
+
+      .contenido-footer{
+            margin-top: 50px; 
+            }
+            
+      .nombre-input{
+          margin-right: 5px;
+            }
+            
+      .form-row{
+          margin-left: -5px;
+            }
+      
+     
+          
+
+      
+}
+
+/*
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 30px;
+
+*/
