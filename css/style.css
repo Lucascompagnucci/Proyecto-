@@ -23,19 +23,8 @@ body {
   margin-top: 70px;
 }
 
-.profesionales .boton {
-  margin-top: 20px;
-  color: #2d726a;
-  width: 100px;
-  border: 2px #354644 solid;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 16px;
-  margin-bottom: 50px;
-}
-
 footer {
   background-color: #333;
-  padding: auto auto auto auto;
 }
 
 /* header */
@@ -70,18 +59,29 @@ header .nav-link {
 .profesionales {
   margin-top: 100px;
 }
-.profesionales .conteiner:hover .profesionales1 {
-  transform: translateX(560px);
+.profesionales .conteiner {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 78px;
 }
 .profesionales .profesionales1 {
   width: 300px;
-  transition: all 1.3s ease-in;
 }
-.profesionales .conteiner:hover .boton {
-  transform: translateX(560px);
+.profesionales .elemento-boton {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
-.profesionales .boton {
-  transition: all 1.3s ease-in;
+.profesionales .contenido-profesionales1 {
+  margin-left: 203px;
+  margin-top: 17px;
+}
+.profesionales .contenido-profesionales {
+  margin-left: 918px;
+  position: relative;
+  bottom: 123px;
+  margin-top: 17px;
 }
 
 /*victor frankl*/
@@ -113,14 +113,15 @@ footer .grid-footer {
   justify-content: center;
 }
 footer .logo-footer {
-  width: 200px;
   display: Flex;
   justify-content: center;
   border-radius: 100px;
+  height: 100px;
+  width: 100px;
+  margin-top: 50px;
 }
 footer .texto-footer {
   margin-left: 200px;
-  color: #f1faee;
 }
 footer .logo-footer1 {
   display: Flex;
@@ -129,23 +130,6 @@ footer .logo-footer1 {
 footer .icono {
   margin-left: -60px;
 }
-footer .speak-form {
-  display: Flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-footer input {
-  width: 300px;
-  margin-top: 20px;
-}
-footer .boton-footer {
-  width: 100px;
-  margin-top: 30px;
-}
-footer .describe {
-  width: 500px;
-  margin-top: 20px;
-}
 footer .h3-footer {
   color: #fff;
   margin-bottom: 40px;
@@ -153,12 +137,6 @@ footer .h3-footer {
 }
 footer .contenido-footer {
   margin-top: 50px;
-}
-footer .nombre-input {
-  margin-right: 5px;
-}
-footer .form-row {
-  margin-left: -5px;
 }
 
 /*
@@ -172,6 +150,150 @@ footer .form-row {
 @media only screen and (max-width: 400px) {
   .logo-footer {
     width: 120px !important;
+  }
+
+  /* fundacion logoterapia */
+  .parrafo-logoterapia {
+    font-size: 18px;
+    margin-top: 400px;
+    margin-left: -372px;
+  }
+
+  .h1-logoterapia {
+    margin-right: -226px;
+  }
+
+  /* profesionales */
+  .h1-profesionales {
+    margin-right: -226px;
+  }
+
+  .conteiner {
+    margin-left: 220px;
+  }
+
+  .contenido-profesionales1 {
+    position: relative;
+    right: 181px;
+  }
+
+  .contenido-profesionales {
+    right: 598px;
+    display: flex;
+    justify-content: end;
+  }
+
+  .contenedor-profesionales {
+    margin-left: 20px;
+  }
+
+  .elemento-profesionales {
+    margin-right: 98px;
+  }
+
+  /* victor frankl*/
+  .h1-victor {
+    margin-right: -226px;
+  }
+
+  .victor-f {
+    font-size: 18px;
+    text-align: center;
+    margin-right: -221px;
+  }
+
+  /* encontranos */
+  .h1-encontranos {
+    margin-right: -221px;
+  }
+
+  /* formulario */
+  .h2-formulario {
+    margin-right: -221px;
+  }
+
+  /*footer*/
+  footer {
+    width: 620px;
+  }
+  footer .grid-footer {
+    width: 100%;
+  }
+  footer .texto-footer {
+    margin: auto;
+  }
+  footer .h3-footer {
+    font-size: 15px;
+    margin-left: -20px;
+  }
+  footer .logo-footer {
+    margin: auto;
+  }
+}
+/* fin de mobile */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* fundacion logoterapia*/
+  .parrafo-logoterapia {
+    text-align: left;
+  }
+
+  /* profesionales */
+  .contenedor-profesionales1 {
+    margin-left: -39px;
+  }
+
+  .conteiner {
+    margin-left: 162px;
+  }
+
+  .contenedor-profesionales {
+    margin-left: -446px;
+  }
+
+  .h1-logoterapia {
+    width: 916px;
+  }
+
+  .h1-profesionales {
+    width: 916px;
+  }
+
+  /* Victor frankl */
+  .h1-victor {
+    width: 916px;
+  }
+
+  .victor-f {
+    text-align: center;
+    position: relative;
+    left: 84px;
+  }
+
+  .grid-imagenes {
+    margin-left: 173px;
+  }
+
+  .box1 {
+    margin-right: 12px;
+  }
+
+  .box2 {
+    margin-right: 10px;
+  }
+
+  /* encontranos */
+  .h1-encontranos {
+    width: 916px;
+  }
+
+  /* formulario */
+  .h2-formulario {
+    width: 916px;
+  }
+
+  /* footer */
+  footer {
+    width: 917px;
   }
 }
 /* formulario */
@@ -280,6 +402,19 @@ input:focus, textarea:focus {
 .submit:hover .ease {
   width: 100%;
   background-color: white;
+}
+
+.video {
+  margin-right: 1000px;
+}
+
+.fa-street-view {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.direccion-encontranos {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
