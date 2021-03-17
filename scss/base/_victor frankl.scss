@@ -26,7 +26,12 @@
             margin-top: 28px;
           }
           
+        .box1:hover,.box2:hover,.box3:hover{
+          
         
+          animation: bounce; /* referring directly to the animation's @keyframe declaration */
+          animation-duration: 1s; /* don't forget to set a duration! */
+        }
   
          
       .victor-f{

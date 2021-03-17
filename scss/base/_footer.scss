@@ -2,6 +2,8 @@
  /* footer */
     footer{
     @extend %footer;
+
+    margin-top: 619px;
   
      .grid-footer{
        display: flex;

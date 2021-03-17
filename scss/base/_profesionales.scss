@@ -1,7 +1,7 @@
 /* profesionales */
 .profesionales{
     
-        margin-top: 100px;
+        margin-top: 306px;
        
         
         .conteiner{
@@ -23,15 +23,22 @@
         }
 
     .contenido-profesionales1{
-      margin-left: 203px;
+      margin-left: 296px;
       margin-top: 17px;
      }
 
      .contenido-profesionales{
-      margin-left: 918px;
+      margin-left: 1185px;
       position: relative;
       bottom: 123px;
       margin-top: 17px;
+     }
+
+
+     .profesionales1:hover{
+      animation: swing; 
+      animation-duration: 1s;
+      
      }
 
      
