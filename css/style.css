@@ -10,12 +10,13 @@ body {
   text-decoration: underline;
   border: 1px groove #D8DECE;
   padding: 5px 7px 5px 7px;
-  text-align: left;
+  text-align: center;
   margin-top: 70px;
 }
 
 footer {
   background-color: #333;
+  width: 100%;
 }
 
 /* header */
@@ -50,62 +51,18 @@ header .nav-link {
 .profesionales {
   margin-top: 306px;
 }
-.profesionales .conteiner {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  margin-top: 78px;
-}
 .profesionales .profesionales1 {
   width: 300px;
 }
-.profesionales .elemento-boton {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-.profesionales .contenido-profesionales1 {
-  margin-left: 296px;
-  margin-top: 17px;
-}
-.profesionales .contenido-profesionales {
-  margin-left: 1185px;
-  position: relative;
-  bottom: 123px;
-  margin-top: 17px;
-}
-.profesionales .profesionales1:hover {
+.profesionales .card-img-top:hover {
   animation: swing;
   animation-duration: 1s;
 }
 
 /*victor frankl*/
-.victor-frankl .grid-imagenes {
-  display: Grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  text-align: center;
-}
-.victor-frankl .box1 {
-  width: 161px;
-  border-radius: 176px;
-}
-.victor-frankl .box2 {
-  width: 204px;
-  border-radius: 139px;
-}
-.victor-frankl .box3 {
-  width: 263px;
-  border-radius: 90px;
-  margin-top: 28px;
-}
-.victor-frankl .box1:hover, .victor-frankl .box2:hover, .victor-frankl .box3:hover {
+.victor-frankl .card-img-top:hover {
   animation: bounce;
-  /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1s;
-  /* don't forget to set a duration! */
-}
-.victor-frankl .victor-f {
-  margin-top: 40px;
 }
 
 /* footer */
@@ -152,10 +109,6 @@ footer .contenido-footer {
 
 */
 @media only screen and (max-width: 400px) {
-  .logo-footer {
-    width: 120px !important;
-  }
-
   /* fundacion logoterapia */
   .parrafo-logoterapia {
     font-size: 18px;
@@ -164,76 +117,102 @@ footer .contenido-footer {
   }
 
   .h1-logoterapia {
-    margin-right: -226px;
+    width: 692px;
   }
 
   /* profesionales */
-  .h1-profesionales {
-    margin-right: -226px;
+  .profesionales {
+    margin-top: 142px;
   }
 
-  .conteiner {
-    margin-left: 220px;
+  .h1-profesionales {
+    width: 692px;
   }
 
   .contenido-profesionales1 {
-    position: relative;
-    right: 181px;
+    margin-left: 70px;
   }
 
   .contenido-profesionales {
-    right: 598px;
-    display: flex;
-    justify-content: end;
-  }
-
-  .contenedor-profesionales {
-    margin-left: 20px;
-  }
-
-  .elemento-profesionales {
-    margin-right: 98px;
-  }
-
-  /* victor frankl*/
-  .h1-victor {
-    margin-right: -226px;
-  }
-
-  .victor-f {
-    font-size: 18px;
-    text-align: center;
-    margin-right: -221px;
-  }
-
-  /* encontranos */
-  .h1-encontranos {
-    margin-right: -221px;
-  }
-
-  /* formulario */
-  .h2-formulario {
-    margin-right: -221px;
-  }
-
-  /*footer*/
-  footer {
-    width: 620px;
-  }
-  footer .grid-footer {
-    width: 100%;
-  }
-  footer .texto-footer {
-    margin: auto;
-  }
-  footer .h3-footer {
-    font-size: 15px;
-    margin-left: -20px;
-  }
-  footer .logo-footer {
-    margin: auto;
+    margin-left: 0px;
+    width: 600px;
   }
 }
+.profesionales1 {
+  padding: 15px;
+}
+
+.contenedor-profesionales {
+  margin-left: 20px;
+  text-align: initial;
+}
+
+.elemento-profesionales {
+  margin-right: 98px;
+}
+
+/* victor frankl*/
+.contenido-victor {
+  margin-left: 54px;
+}
+
+.victor-frankl {
+  margin-top: 69px;
+}
+
+.h1-victor {
+  width: 692px;
+}
+
+.victor-f {
+  font-size: 18px;
+  margin-right: -298px;
+}
+
+.box1, .box2, .box3 {
+  padding: 17px;
+}
+
+/* Comunicate con nosotros */
+.grid-comunicate {
+  display: grid;
+}
+
+.h1-encontranos {
+  width: 692px;
+}
+
+.conteiner-mapa {
+  position: relative;
+  top: 551px;
+  right: 260px;
+}
+
+.dejanos {
+  position: relative;
+  left: 174px;
+  bottom: 31px;
+}
+
+.mapa {
+  width: 500px;
+}
+
+/*footer*/
+footer .contenido-footer {
+  width: 100%;
+}
+footer .logo-footer1 {
+  padding: auto;
+}
+footer .texto-footer {
+  padding: auto;
+}
+footer .h3-footer {
+  font-size: 15px;
+  margin-left: -20px;
+}
+
 /* fin de mobile */
 @media (min-width: 768px) and (max-width: 1024px) {
   /* fundacion logoterapia*/
@@ -242,29 +221,25 @@ footer .contenido-footer {
   }
 
   /* profesionales */
-  .contenedor-profesionales1 {
-    margin-left: -39px;
+  .contenido-profesionales {
+    margin-left: 121px;
   }
 
-  .conteiner {
-    margin-left: 162px;
-  }
-
-  .contenedor-profesionales {
-    margin-left: -446px;
+  .contenido-profesionales1 {
+    margin-left: 35px;
   }
 
   .h1-logoterapia {
-    width: 916px;
+    width: 874px;
   }
 
   .h1-profesionales {
-    width: 916px;
+    width: 874px;
   }
 
   /* Victor frankl */
   .h1-victor {
-    width: 916px;
+    width: 874px;
   }
 
   .victor-f {
@@ -287,26 +262,32 @@ footer .contenido-footer {
 
   /* encontranos */
   .h1-encontranos {
-    width: 916px;
+    width: 874px;
+  }
+
+  .conteiner-mapa {
+    margin-left: -689px;
+    position: relative;
+    top: 590px;
+  }
+
+  .formulario {
+    position: relative;
+    bottom: 28px;
+    left: 19px;
   }
 
   .mapa {
-    margin-left: 20px;
+    margin-left: 34px;
   }
 
-  /* formulario */
-  .h2-formulario {
-    width: 916px;
-  }
-
-  .form-contact {
-    width: 50%;
-    font-family: "Arial", Times, serif;
+  .dejanos {
+    margin-left: 30px;
   }
 
   /* footer */
   footer {
-    width: 917px;
+    width: 1023px;
   }
 }
 #form-main {
@@ -314,7 +295,7 @@ footer .contenido-footer {
   display: flex;
   justify-content: center;
   padding-top: 0px;
-  margin-top: 200px;
+  margin-top: 180px;
   margin-right: 300px;
   margin-left: 14px;
 }
@@ -415,10 +396,16 @@ input:focus, textarea:focus {
   background-color: white;
 }
 
+.grid-comunicate {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .mapa {
   padding: auto;
-  position: relative;
-  left: 602px;
+  margin-top: 30px;
 }
 
 .fa-street-view {
@@ -428,18 +415,10 @@ input:focus, textarea:focus {
 
 .direccion-encontranos {
   font-size: 20px;
-  margin-left: 604px;
 }
 
-.encontranos {
-  margin-top: 200px;
-  text-align: center;
-  margin-bottom: 70px;
-}
-
-.dejanos {
-  margin-top: 221px;
-  text-align: center;
+.conteiner-mapa, .formulario {
+  margin-top: 110px;
 }
 
 /*# sourceMappingURL=style.css.map */

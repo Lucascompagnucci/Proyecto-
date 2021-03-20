@@ -1,8 +1,6 @@
 @media only screen and (max-width: 400px){
-    .logo-footer{
-        width: 120px !important; 
-    }
-
+  
+    
     /* fundacion logoterapia */
 
     .parrafo-logoterapia{
@@ -12,32 +10,36 @@
     }
 
     .h1-logoterapia{
-        margin-right: -226px;
+        width: 692px;
     }
    
     /* profesionales */
 
-    .h1-profesionales{
-        margin-right: -226px;
+    .profesionales{
+        margin-top: 142px;
+
     }
 
-    .conteiner{
-        margin-left: 220px;
+    .h1-profesionales{
+        width: 692px;
     }
 
     .contenido-profesionales1{
-        position: relative;
-        right: 181px;
+        margin-left: 70px;
     }
     .contenido-profesionales{
-        right: 598px;
-        display:flex;
-        justify-content: end;
-        
-    }  
-     
+        margin-left: 0px;
+        width: 600px;
+      }
+     }  
+    
+    
+    .profesionales1{
+        padding: 15px;
+    }
     .contenedor-profesionales{
         margin-left: 20px;
+        text-align: initial;
 
     }
      
@@ -45,60 +47,90 @@
         margin-right: 98px;
     }
     /* victor frankl*/
-
+    
+    .contenido-victor{
+        margin-left: 54px;
+     }
+    
+    .victor-frankl{
+        margin-top: 69px
+    }
     .h1-victor{
-        margin-right: -226px;
+        width: 692px;
     }
 
    .victor-f{
        font-size: 18px;
-       text-align: center;
-       margin-right: -221px;
+       margin-right: -298px;
+   }
+
+   .box1, .box2, .box3{
+    padding: 17px;
    }
     
 
-   /* encontranos */
+   /* Comunicate con nosotros */
 
+
+   .grid-comunicate{
+       display: grid;
+   }
    .h1-encontranos{
-    margin-right: -221px;
+    width: 692px;
    }
 
-
-   /* formulario */
-
-   .h2-formulario{
-    margin-right: -221px;
+   .formulario{
+    // position: relative;
+    // left: 181px;
+    // bottom: 40px;
    }
 
+   .conteiner-mapa{
+    position: relative;
+    top: 551px;
+    right: 260px;
+   }
+   
+   .dejanos{
+    position: relative;
+    left: 174px;
+    bottom: 31px;
+   }
+   
+   .mapa{
+       width: 500px;
+   }
 
 
    /*footer*/
    footer{ 
-     width: 620px;
+    //  width: 608px;
    
-       
-        .grid-footer {
-           width: 100%;
-        }
-        .texto-footer{
-            
-            margin: auto;
-        }
+     .contenido-footer{
+         width: 100%;
+     }
+     .logo-footer1{
+        padding: auto;
+    }
+   
+    .texto-footer{
+        padding: auto;
+    }
 
         .h3-footer{
         font-size: 15px;
         margin-left: -20px;
+
+        }
+         
         
-        }
+        
+   }      
 
-        .logo-footer{
-            margin: auto;
-        }
-
-        }
+        
   
     
-}
+
 
 /* fin de mobile */
 
@@ -113,30 +145,28 @@
 
 /* profesionales */
 
- .contenedor-profesionales1{
-    margin-left: -39px
- }
-.conteiner{
-    
-    margin-left: 162px;
-
-}
- .contenedor-profesionales{
-    margin-left: -446px
+.contenido-profesionales{
+    margin-left: 121px;
+  }
+   
+ .contenido-profesionales1{
+    margin-left: 35px;
  }
 
+ 
+ 
  .h1-logoterapia{
-    width: 916px;
+    width:874px;
  }
 
  .h1-profesionales{
-    width: 916px;
+    width: 874px;
  }
 
  /* Victor frankl */
 
 .h1-victor{
-    width: 916px;
+    width: 874px;
 }
 
 .victor-f{
@@ -146,7 +176,7 @@
 }
 
 .grid-imagenes{
-    margin-left: 173px
+    margin-left: 173px;
 }
 
 .box1{
@@ -154,35 +184,49 @@
 }
 
 .box2{
-    margin-right: 10px
+    margin-right: 10px;
 }
 
 
 /* encontranos */
 .h1-encontranos{
-    width: 916px;
+    width: 874px;
+}
+
+.conteiner-mapa{
+    margin-left: -689px;
+    position: relative;
+    top: 590px;
+}
+
+.formulario{
+    position: relative;
+    bottom: 28px;
+    left: 19px;
 }
 
 .mapa{
-  margin-left: 20px;
-
+    margin-left: 34px;
 }
 
-
-/* formulario */
-.h2-formulario{
-    width: 916px;
+.dejanos{
+    margin-left: 30px;
 }
 
-.form-contact {
-	width: 50%;
-	font-family: "Arial", Times, serif;
-  }
+// /* formulario */
+// .h2-formulario{
+//     width: 916px;
+// }
+
 
 /* footer */
- footer{
-    width: 917px;
+footer{
+    width: 1023px;
  }
+
+
+ 
+
 }
 
 

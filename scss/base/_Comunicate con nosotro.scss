@@ -1,7 +1,19 @@
+
+
+.grid-comunicate{
+   
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .mapa{
     padding: auto;
-    position: relative;
-    left: 602px;
+    // position: relative;
+    // bottom: 550px;
+    // left: 969px;
+    margin-top: 30px;
 }
 
 .fa-street-view{
@@ -11,17 +23,14 @@
 
 .direccion-encontranos{
     font-size: 20px;
-    margin-left: 604px;
+    // position: relative;
+    // bottom: 559px;
+    // left: 969px;
+    
 }
 
 
-.encontranos{
-    margin-top: 200px;
-    text-align: center;
-    margin-bottom: 70px;
+.conteiner-mapa, .formulario{
+    margin-top: 110px;
 }
-
-.dejanos{
-    margin-top: 221px;
-    text-align: center;
-}
+   

@@ -4,43 +4,21 @@
         margin-top: 306px;
        
         
-        .conteiner{
-          display: flex;
-          justify-content: space-around;
-          text-align: center;
-          margin-top: 78px;
-            
-        }
+       
         .profesionales1{
           width: 300px;
           
         }
-         
-        .elemento-boton{
-          display: flex;
-          justify-content: center;
-          text-align: center;
-        }
+      
 
-    .contenido-profesionales1{
-      margin-left: 296px;
-      margin-top: 17px;
-     }
-
-     .contenido-profesionales{
-      margin-left: 1185px;
-      position: relative;
-      bottom: 123px;
-      margin-top: 17px;
-     }
-
-
-     .profesionales1:hover{
+     .card-img-top:hover{
       animation: swing; 
       animation-duration: 1s;
       
+      
      }
-
+ 
+     
      
 
 }
